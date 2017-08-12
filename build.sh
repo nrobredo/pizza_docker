@@ -1,5 +1,5 @@
 #!/bin/bash
 
 mv Spring4-1.war service.war
-docker build -f ./Dockerfile -t api_image:0.1 .
+docker build -f ./Dockerfile -t my_api .
 
